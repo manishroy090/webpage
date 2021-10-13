@@ -1,0 +1,346 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 250, 250);
+
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    width: 13%;
+    
+    
+   
+}
+.nav-list{
+    width: 150px;
+   height: 427px;
+   margin-top: 22px;
+   margin-left: 34px;
+   background-position: left;
+    line-height: 36px;
+    font-size: 20px;
+    
+}
+.nav-list li{
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    
+    
+}
+.ul #lol{
+    color: violet;
+
+}
+  
+
+  
+    .nav-list li a{
+        text-decoration: none;
+        color: gray;
+       
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+.rightNav{
+    background-color: rgb(218, 45, 45);
+    width: 30%;
+   text-align:center;
+ height: 0px;
+ margin-left: 54px;
+ padding-bottom: 0;
+}
+.btn{
+    
+   
+   width: 121px;
+   height: 47px;
+   margin-top: 0%;
+   
+   font-size: 150%;
+   border-radius: 22px;
+   background-color:  #d83316;
+   color:white;
+   padding: 8px;
+   display: inline-block;
+   
+}
+.heading{
+    margin-left: 40px;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+
+.heading_1st{
+    font-style: Serif;
+    content: "\a";
+    white-space: pre;
+    
+}   
+.heading_2nd{
+    font-style: Serif;
+    content: "\a";
+    white-space: pre;
+   
+}
+.web_page{
+    display: flex;
+    
+    
+    
+}
+.center_heading{
+height: 30px;
+font-size: 70px;
+ margin-top: 130px;
+ margin-left: 30px;
+ padding-left: 30px;
+ font-style: Serif;
+ position: relative;
+ flex-direction: row;
+ object-position: 20px;
+ padding-bottom: 30px;
+ text-align: left;
+ width: 600px;
+ 
+}
+
+.container{
+    width: 90%;
+    padding: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+   
+    margin: 92px auto;
+    display: flex;
+    margin-right:50px;
+    
+    
+    position:relative;
+    
+    
+}
+.box{
+    width: 150px;
+    height: 200px;
+    background: rgb(255,255,255) ;
+    margin: 0px 10px;
+    margin-top: -50px;
+    
+    box-shadow: 5px 5px 10px 1px #cccaca, -5px 5px 10px #cccaca;
+    border-radius: 10px;
+}
+.image{
+    margin: auto;
+  width: 99%;
+  
+  padding: 10px;
+  margin-top: 12px;
+  margin-left:1px ;
+  border-radius: 50%;
+}
+#image2{
+ margin: auto;
+  width: 103%;
+  padding: 10px;
+  margin-top: 18px;
+  margin-left:-2px ;
+  border-radius: 50%;
+}
+ul #lol{
+    
+    
+    text-decoration: line-through red;
+}
+.lorem_16_text{
+    word-spacing: 2px;
+   width: 800px;
+   text-align: start;
+   margin-left: 700px;
+  padding: 15px;
+  line-height: 24px;
+  max-width: 1140px;
+  bottom: 70%;
+  
+  width:500px;
+}
+
+.border{
+    border-bottom: 3px solid red;
+    width: 60px;
+    margin-left: 720px;
+    padding-bottom: 5px;
+}
+.food_name{
+    
+    text-align: center;
+    padding-left: 5px;
+    font-weight: bold;
+}
+.lorem2{
+    display: none;
+}
+.cart{
+display:none;
+}
+.top{
+    display:none
+}
+.nav-list{
+    display: inline;
+}
+.lorem_16_text_2{
+    display: none;
+}
+
+@media only screen and (max-width:1140px){
+    .container{
+        flex-wrap: wrap;
+        margin-top: 181px;
+        margin-right: 85px;
+        padding: 10px;
+    }
+    
+    
+     .box{
+         width: 325px;
+         height:406px;
+         margin-top:31px;
+         border-radius: 31px;
+         padding: 18px;
+        
+     }
+     
+         .lorem2{
+            position:absolute;
+            right:408px;
+            font-size: 86px;
+            display: inline;
+            margin-top: -74px;
+            
+        }
+     .border{
+         position: absolute;
+         bottom: 30px;
+         right:659px;
+         width: 196px;
+         height: 90px;
+         
+ 
+     }
+     .heading{
+         position: relative;
+         right: -309px;
+         font-size: 40px;
+         font-weight: bold;
+         margin-top: 0px;
+     }
+     .center_heading{
+         margin-top: 226px;
+     }
+     .heading_2nd{
+        display: none;
+    }
+    .rightNav{
+        display: none;
+    }
+    .burger{
+        margin-left: 30px;
+        margin-top: 50px;
+    }
+    .line{
+        width: 10px;
+        background-color:red;
+        height: 15px;
+        margin: 3px 3px ;
+        line-height: 1.6%
+    }
+    #line2{
+        width:106px;
+        
+    }
+    #line1{
+        width: 66px;
+
+    }
+    #line3{
+        width: 50px;
+    }
+  .top{
+    display: flex;
+    display: inline;
+  }
+  .cart{
+      position:absolute;
+      right: 100px;
+      display:inline;
+      margin-top: -82px;
+      
+      
+
+  }
+  #lorem{
+      margin-top: 100px;
+  }
+  .heading_1st{
+      display: none;
+
+  }
+  
+  
+      
+
+  .food_name{
+      margin-left: 0px;
+      margin-top: 42px;
+      font-size: 40px;
+
+  }
+  
+      
+  
+  .nav-list{
+      display: none;
+  }
+  .burger{
+      size: 30px;
+  }
+  .trolley{
+    height: 130px;
+    width: 140px; 
+    float: right;
+  }
+    .lorem_16_text{
+        display: none;
+    }
+    .lorem_16_text_2{
+        
+        position: absolute;
+        bottom: 30px;
+        right: 56px;
+        height: -1px;
+        padding: 15px;
+        font-size: 45px;
+        line-height: 1.6; 
+        width: 800px;
+        color: gray;
+        text-decoration: none;
+        
+     
+     display: inline;
+     
+        
+
+    }
+  }
+  
+   
+ 
+  
